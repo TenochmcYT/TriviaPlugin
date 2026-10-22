@@ -1,0 +1,11 @@
+main: MP.TenochMC.Evento
+version: 1.0.0
+name: Evento
+author: TenochMC
+api-version: 1.13
+
+commands:
+  vortrex:
+    description: Comando principal de Vortrex
+    aliases:
+      - eventos

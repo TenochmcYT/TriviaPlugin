@@ -1,0 +1,177 @@
+mensajes:
+  denegacion: "&cNo tienes permisos suficientes"
+
+config:
+  bienvenida:
+    activo: true
+    mensajes:
+      - "&8&m-----------------------------------"
+      - "&a"
+      - "           &f✦ &b¡Bienvenid@ %player%! &f✦"
+      - "  &7Que comience tu aventura en &b&lvortrex"
+      - "  &7Usa &f/menu &7para explorar el servidor."
+      - "&e"
+      - "&8&m------------------------------------"
+
+ ##recuerda que el intervalo es en ticks
+eventos:
+  automatico: true
+  intervalo: 18000 # 15 minutos en ticks
+
+  preguntas:
+    activo: true
+    tiempo-limite: 30 # segundos
+
+    preguntas:
+      # Cultura general - amarillo
+      - "&e¿Cuántos lados tiene un hexágono?"
+      - "&e¿Cuál es el planeta más cercano al Sol?"
+      - "&e¿Cuántos días tiene una semana?"
+      - "&e¿Cuál es el océano más grande del mundo?"
+      - "&e¿Cuántos colores tiene el arcoíris?"
+      - "&e¿Cuál es el satélite natural de la Tierra?"
+      - "&e¿Cuántos meses tiene un año?"
+      - "&e¿Cuál es el animal terrestre más rápido?"
+      - "&e¿Qué planeta es conocido como el planeta rojo?"
+      - "&e¿Cuántas patas tiene una araña?"
+
+      # Matemáticas - verde
+      - "&a¿Cuánto es 8 por 7?"
+      - "&a¿Cuánto es 100 dividido entre 4?"
+      - "&a¿Cuánto es 15 más 27?"
+      - "&a¿Cuánto es 9 al cuadrado?"
+      - "&a¿Cuánto es 144 dividido entre 12?"
+      - "&a¿Cuánto es 50 menos 18?"
+      - "&a¿Cuánto es 6 por 12?"
+      - "&a¿Cuánto es la mitad de 90?"
+      - "&a¿Cuánto es 25 más 75?"
+      - "&a¿Cuánto es 7 por 8?"
+
+      # Minecraft - aqua
+      - "&b¿Qué mineral necesitas para fabricar una armadura de diamante?"
+      - "&b¿Cómo se llama la dimensión donde vive el Ender Dragon?"
+      - "&b¿Qué criatura explota cuando se acerca a un jugador?"
+      - "&b¿Qué objeto necesitas para dormir en Minecraft?"
+      - "&b¿Qué mineral necesitas para fabricar herramientas de hierro?"
+      - "&b¿Cómo se llama el jefe final del End?"
+      - "&b¿Qué objeto se utiliza para domesticar lobos?"
+      - "&b¿Qué bloque necesitas para construir un portal al Nether?"
+      - "&b¿Qué criatura lanza perlas de Ender?"
+      - "&b¿Qué herramienta se utiliza para picar piedra?"
+
+      # Videojuegos y tecnología - morado
+      - "&d¿Qué empresa creó Minecraft?"
+      - "&d¿Cómo se llama el protagonista de la saga Zelda?"
+      - "&d¿Qué significa CPU?"
+      - "&d¿Qué dispositivo se utiliza para mover el cursor de una PC?"
+      - "&d¿Cuál es la moneda virtual de Roblox?"
+      - "&d¿Qué empresa desarrolla Windows?"
+      - "&d¿Qué significa GG en los videojuegos?"
+      - "&d¿Qué tecla se utiliza normalmente para saltar en Minecraft?"
+      - "&d¿Qué significa PvP?"
+      - "&d¿Qué significa AFK?"
+
+    respuestas:
+      # Cultura general
+      - "6"
+      - "Mercurio"
+      - "7"
+      - "Pacífico"
+      - "7"
+      - "La Luna"
+      - "12"
+      - "Guepardo"
+      - "Marte"
+      - "8"
+
+      # Matemáticas
+      - "56"
+      - "25"
+      - "42"
+      - "81"
+      - "12"
+      - "32"
+      - "72"
+      - "45"
+      - "100"
+      - "56"
+
+      # Minecraft
+      - "diamante"
+      - "El End"
+      - "Creeper"
+      - "cama"
+      - "hierro"
+      - "Ender Dragon"
+      - "huesos"
+      - "obsidiana"
+      - "Enderman"
+      - "pico"
+
+      # Videojuegos y tecnología
+      - "Mojang"
+      - "Link"
+      - "unidad central de procesamiento"
+      - "mouse"
+      - "Robux"
+      - "Microsoft"
+      - "good game"
+      - "espacio"
+      - "player versus player"
+      - "away from keyboard"
+
+  castigos:
+    activados: true
+    lista:
+      # Efectos negativos
+        veneno: true
+        whiter: true
+        nauseas: true
+        lentitud: true
+        debilidad: true
+        ceguera: true
+        hambre: true
+        fatiga_minera: true
+        oscuridad: true
+        mal_presagio: true
+
+      # Daño y supervivencia
+        quitar_vida: true
+        quemadura: true
+        hambre_extrema: true
+
+      # Castigos de inventario
+        dropear_mano: true
+        dropear_offhand: true
+        soltar_objeto_aleatorio: true
+        vaciar_mano: true
+        perder_experiencia: true
+
+      # Invocación de mobs
+
+      # Mobs hostiles
+        mob_zombie: true
+        mob_esqueleto: true
+        mob_creeper: true
+        mob_araña: true
+        mob_enderman: true
+        mob_bruja: true
+        mob_slime: true
+        mob_phantom: true
+        mob_husk: true
+        mob_drowned: true
+        mob_pillager: true
+        mob_silverfish: true
+        mob_cave_spider: true
+        mob_blaze: true
+        mob_magma_cube: true
+        mob_vindicator: true
+
+      # Mobs pasivos
+        mob_vaca: true
+        mob_cerdo: true
+        mob_oveja: true
+        mob_gallina: true
+        mob_lobo: true
+        mob_gato: true
+        mob_abeja: true
